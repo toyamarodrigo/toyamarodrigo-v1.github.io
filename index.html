@@ -52,11 +52,12 @@
 
   <header id="Header">
     <div class="landingImg landingImg1 d-flex align-items-center">
+
       <div class="container">
         <div class="row">
           <div class="col-12 text-center">
-              <h1>Hi, I'm Rodrigo</h1>
-              <h2>a software developer</h2>
+            <h1>Hi, I'm Rodrigo</h1>
+            <h2><span class="type"></span></h2>
           </div>
         </div>
 
@@ -67,23 +68,22 @@
         <div class="container">
           <div class="row">
             <div class="col-12">
-
               <ul class="connect-list">
                 <li>
                   <a class="connect-icon file" href="#" aria-label="CV"><i class="fa fa-file-text cv"></i></a>
                 </li>
                 <li>
-                  <a class="connect-icon linkedin" href="https://www.linkedin.com/in/rodrigo-toyama-1861b1154/" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                  <a class="connect-icon linkedin" href="https://www.linkedin.com/in/rodrigo-toyama-1861b1154/"
+                    aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a>
                 </li>
                 <li>
-                  <a class="connect-icon github" href="https://github.com/toyamarodrigo" aria-label="Github"><i class="fa fa-github"></i></a>
+                  <a class="connect-icon github" href="https://github.com/toyamarodrigo" aria-label="Github"><i
+                      class="fa fa-github"></i></a>
                 </li>
                 <li>
                   <a class="connect-icon" href="#Contact" aria-label="Mail"><i class="fa fa-envelope-square"></i></a>
                 </li>
               </ul>
-
-
             </div>
           </div>
         </div>
@@ -95,21 +95,33 @@
             </div>
           </div>
         </div>
+
       </div>
     </div>
   </header>
 
-
-
-
-
-  <script src="js/script.js"></script>
+  <script src="js/index.js"></script>
+  <script src="js/typed.min.js"></script>
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/wow.min.js"></script>
   <script>
     new WOW().init();
+
+    /* TypedJS */
+
+    var typed = new Typed(".type", {
+      strings: [
+        "^300 Software developer",
+        "^300 Web developer",
+        "^400 Maker^1000"
+      ],
+      typeSpeed: 100,
+      backSpeed: 40,
+      loop: true,
+    });
+
   </script>
 </body>
 
