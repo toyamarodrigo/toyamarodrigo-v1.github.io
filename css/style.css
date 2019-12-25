@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body>section {
+  padding: 70px 0;
+}
+
+h1 {
+  font-size: 4.8rem !important;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 1.8rem !important;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+/* NavBar */
+
+.navbar>.container .navbar-brand {
+  margin-left: 0;
+}
+
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0;
+  background: #000 !important;
+  padding: 15px 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.navbar-nav {
+  margin-top: 12px !important;
+}
+
+.navbar-nav>li {
+  margin-left: 35px !important;
+  padding-bottom: 28px !important;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  padding: 5px 12px !important;
+  margin: 0;
+  border-radius: 3px;
+  color: #fff;
+  line-height: 24px;
+  display: inline-block;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+  background-color: #2979ff;
+  color: #fff;
+}
+
+.navbar-inverse {
+  border: none;
+}
+
+.navbar-inverse .navbar-brand {
+  font-size: 30px !important;
+  line-height: 50px !important;
+  font-weight: 600;
+  color: #fff;
+}
+
+.navbar-inverse .navbar-brand .fa {
+  color: #3498db;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar-brand .logo {
+  margin: 0;
+  padding: 0;
+  width: 140px;
+  height: 100%;
+}
+
+/* Home */
+
+#Header {
+  position: relative;
+}
+
+.landingImg {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0 !important;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  display: block !important;
+  height: 640px;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.landingImg1 {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/landing1.jpg');
+  height: 100vh;
+}
+
+.separator {
+  background-color: #fff;
+  width: 25%;
+}
+
+
+/* https://codepen.io/2kool2 */
+
+.connect-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 2rem auto;
+  max-width: 21rem;
+}
+
+.connect-list li {
+  text-align: center;
+}
+
+.cv {
+  font-size: 0.9em!important;
+}
+
+.connect-icon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 20%;
+  font-size: 2rem;
+  outline: 0 solid;
+  box-shadow: 0 .25em .25em rgba(0, 0, 0, .3);
+  transition: all .3s ease-out;
+}
+
+.connect-icon:hover,
+.connect-icon:focus {
+  background-color: currentColor!important;
+  outline: 0 solid;
+  transform: scale(1.12);
+  box-shadow: 0 .5em .5em rgba(0, 0, 0, .4);
+}
+
+.connect-icon i {
+  padding: .3em;
+}
+
+.connect-icon i:hover,
+.connect-icon i:focus {
+  color: #fff;
+}
+
+.connect-icon::before {
+  content: attr(aria-label);
+  position: absolute;
+  left: 50%;
+  bottom: -100%;
+  font-size: .8rem;
+  white-space: nowrap;
+  color: white;
+  background-color: #3B2D4A;
+  /* Less accessible option: background-color: inherit;*/
+  padding: .5em .7em .4em;
+  box-shadow: 0 .5em .5em rgba(0, 0, 0, .4);
+  opacity: 0;
+  transform: translate(-50%, -180%) scale(0.7);
+  border-radius: 2em;
+  transition: .3s;
+}
+
+.connect-icon:hover::before,
+.connect-icon:focus::before {
+  opacity: 1;
+  transform: translate(-50%, -70%) scale(1);
+}
+
+@keyframes pressed-social {
+  0% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(.8);
+    background-color: #3B2D4A;
+    box-shadow: 0 .5em .5em rgba(0, 0, 0, 0);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+.file {
+  color: #000!important;
+}
+
+.linkedin {
+  color: #007BB5!important;
+}
+
+.github {
+  color: #000!important;
+}
+
+.btn {
+  margin-top: 15px!important;
+}
+
+.btn-slide {
+  padding: 8px 20px!important;
+  background: #3498db!important;
+  background-color: #dd006f!important;
+  color: #fff!important;
+  border-radius: 4px!important;
+  margin-top: 50px;
+  margin: 0 10px;
+  display: inline-block!important;
+  transition: 0.5s!important;
+  letter-spacing: 1px;
+}
+
+.btn-slide:hover {
+  box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+  transform: translate3d(0px, -1px, 0px);
+  background-color: #ff80bf!important;
+  color: #350a1f!important;
+  border-style: none!important;
+}

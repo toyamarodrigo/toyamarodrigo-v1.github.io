@@ -1,12 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome 4 CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- My Styles -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Bootstrap 4 CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <title>Rodrigo Toyama - Home</title>
 </head>
-<body>
-  <h1>Hello World</h1>
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+
+  <!-- Navivation Bar -->
+  <nav class="navbar navbar-expand-md navbar-dark navbar-inverse fixed-top bg-transparent">
+
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <img src="#" alt="Logo" class="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </nav>
+
+  <header id="Header">
+    <div class="landingImg landingImg1 d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+              <h1>Hi, I'm Rodrigo</h1>
+              <h2>a software developer</h2>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <hr class="separator">
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+
+              <ul class="connect-list">
+                <li>
+                  <a class="connect-icon file" href="#" aria-label="CV"><i class="fa fa-file-text cv"></i></a>
+                </li>
+                <li>
+                  <a class="connect-icon linkedin" href="https://www.linkedin.com/in/rodrigo-toyama-1861b1154/" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li>
+                  <a class="connect-icon github" href="https://github.com/toyamarodrigo" aria-label="Github"><i class="fa fa-github"></i></a>
+                </li>
+                <li>
+                  <a class="connect-icon" href="#Contact" aria-label="Mail"><i class="fa fa-envelope-square"></i></a>
+                </li>
+              </ul>
+
+
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <a class="btn btn-slide" href="#Projects">View My Projects</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+
+
+
+  <script src="js/script.js"></script>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
 </body>
+
 </html>
