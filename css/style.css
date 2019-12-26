@@ -97,11 +97,8 @@ h2 {
 
 /* Home */
 
-#Header {
-  position: relative;
-}
-
 .landingImg {
+  position: relative;
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -173,11 +170,10 @@ h2 {
 }
 
 .connect-icon i {
-  padding: .3em;
+  padding: .5em;
 }
 
-.connect-icon i:hover,
-.connect-icon i:focus {
+.connect-icon i:hover {
   color: #fff;
 }
 
@@ -205,6 +201,10 @@ h2 {
   transform: translate(-50%, -70%) scale(1);
 }
 
+.-clicked {
+  animation: pressed-social .3s ease-out;
+}
+
 @keyframes pressed-social {
   0% {
     transform: scale(1.1);
@@ -221,6 +221,10 @@ h2 {
 
 .file {
   color: #000!important;
+}
+
+.fa-linkedin:active {
+  color: #fff;
 }
 
 .linkedin {
@@ -254,3 +258,6 @@ h2 {
   background-color: #ff80bf!important;
   color: #350a1f!important;
 }
+
+/* Projects */
+

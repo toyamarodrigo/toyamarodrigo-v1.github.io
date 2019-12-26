@@ -1,20 +1,19 @@
 /* https://codepen.io/2kool2 */
 
 (function () {
-  // add click animation to social links
-  var socials = document.querySelectorAll("[class*=connect-icon]");
-  var i = socials.length;
+  // Add click animation to social links
+
+  var socials = document.querySelectorAll(".connect-icon");
   var cls = "-clicked";
-  while (i--) {
-    socials[i].addEventListener("click", function(e){
+  for(var i = 0; i < socials.length; i++) {
+    socials[i].addEventListener("click", function (e) {
       var lnk = e.target;
       lnk.classList.add(cls);
 
-      // Allow time for animation to complete then remove
-      setTimeout(function() {
+
+      setTimeout(() => {
         lnk.classList.remove(cls);
       }, 300);
     }, false);
   }
 })();
-
