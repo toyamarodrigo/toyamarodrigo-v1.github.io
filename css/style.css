@@ -153,7 +153,7 @@ li {
 
 .landingImg1 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/landing1.jpg');
-  height: 100vh;
+  height: 110vh;
 }
 
 .separator {
@@ -349,7 +349,7 @@ li {
 .button-code,
 .button-view {
   color: #fff !important;
-  padding: 8px 3rem !important;
+  padding: 0.8rem 1rem !important;
 }
 
 .btn-projects {
@@ -452,14 +452,13 @@ li {
   display: inline-block;
   width: 5rem;
   height: 5rem;
-  padding: 8px 20px !important;
+  padding: 0.4rem 1rem !important;
   background: #f1f1f1 !important;
   border-radius: 30% !important;
   transition: 0.5s !important;
   box-shadow: 0 5px 15px -5px #ecf0f1;
   overflow: hidden;
   position: relative;
-  margin: 1rem 3rem;
 }
 
 
@@ -468,4 +467,113 @@ li {
   box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
   transform: translate3d(0px, -1px, 0px);
   background-color: #ff80bf !important;
+}
+
+/* Media queries */
+
+/*
+col <576pxs
+col-sm ≥576px
+col-md ≥768px
+col-lg ≥992px
+col-xl ≥1200px
+*/
+
+@media only screen and (max-width: 576px) {
+
+  h1 {
+    font-size: 3.8rem !important;
+  }
+
+  h2 {
+    font-size: 2.5rem !important;
+    letter-spacing: 3px;
+    color: #000;
+  }
+
+  h3 {
+    font-size: 1.3rem !important;
+    letter-spacing: 1px;
+    color: #fff;
+  }
+
+  h4 {
+    font-size: 1rem !important;
+    letter-spacing: 1px;
+    color: #000;
+  }
+
+  h5 {
+    font-size: 0.8rem !important;
+    letter-spacing: 1px;
+    color: #fff;
+  }
+
+  .projects-buttons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .button-view,
+  .button-code {
+    padding: 0.5rem 1rem;
+  }
+
+  .button-networks {
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    padding: 0.4rem 1rem !important;
+    background: #f1f1f1 !important;
+    border-radius: 30% !important;
+    transition: 0.5s !important;
+    box-shadow: 0 5px 15px -5px #ecf0f1;
+    overflow: hidden;
+    position: relative;
+    margin: 1rem 0.6rem
+  }
+
+}
+
+
+
+@media only screen and (min-width: 576px) {
+
+}
+
+
+@media only screen and (min-width: 768px) {
+  
+  .button-networks {
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    padding: 0.4rem 1rem !important;
+    background: #f1f1f1 !important;
+    border-radius: 30% !important;
+    transition: 0.5s !important;
+    box-shadow: 0 5px 15px -5px #ecf0f1;
+    overflow: hidden;
+    position: relative;
+    margin: 1rem 1rem
+  }
+}
+
+
+@media only screen and (min-width: 992px) {
+
+  .button-networks {
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    padding: 0.4rem 1rem !important;
+    background: #f1f1f1 !important;
+    border-radius: 30% !important;
+    transition: 0.5s !important;
+    box-shadow: 0 5px 15px -5px #ecf0f1;
+    overflow: hidden;
+    position: relative;
+    margin: 1rem 3rem
+  }
+
 }
