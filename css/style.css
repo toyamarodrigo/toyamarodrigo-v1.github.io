@@ -17,19 +17,36 @@ h1 {
   font-size: 4.8rem !important;
   font-weight: 600;
   color: #fff;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 
 h2 {
-  font-size: 3rem !important;
-  letter-spacing: 2px;
+  font-size: 3.5rem !important;
+  letter-spacing: 3px;
   color: #000;
 }
 
 h3 {
   font-size: 1.8rem !important;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   color: #fff;
+}
+
+h4 {
+  font-size: 1.5rem !important;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+h5 {
+  font-size: 1rem !important;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+li{
+  list-style: none;
+  text-decoration: none;
 }
 
 /* NavBar */
@@ -284,7 +301,7 @@ h3 {
 
 #Projects {
   padding: 6rem 0;
-  background-color: rgb(206, 206, 206);
+  background-color: rgb(211, 211, 211);
 }
 
 .projects-container {
@@ -317,9 +334,20 @@ h3 {
   border-radius: 15px;
 }
 
+.used-tech li {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .projects-buttons {
   display: flex;
-  justify-content: center;
+  justify-content: start;
+}
+
+.button-code ,
+.button-view {
+  color: #fff !important;
+  padding: 8px 3rem !important;
 }
 
 .btn-projects {
@@ -334,4 +362,22 @@ h3 {
   transform: translate3d(0px, -1px, 0px);
   background-color: #80c6ff !important;
   color: #0b0d30 !important;
+}
+
+/* Skills */
+
+.lang-list,
+.libfram-list,
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.lang-list img,
+.libfram-list img,
+.tech-list img {
+  width: 150px;
+  margin: 1rem 3rem ;
 }
