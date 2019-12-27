@@ -577,3 +577,27 @@ col-xl ≥1200px
   }
 
 }
+
+/* About */
+
+.avatar {
+  width: 15rem;
+}
+
+.about-me {
+  background-color: #0b0d30;
+  padding-top: 3rem;
+}
+
+.aboutme-container {
+  padding: 5rem;
+}
+
+.about-text {
+  font-size: 1.3rem;
+}
+
+.goal-img {
+  width: 100%;
+  height: auto;
+}
