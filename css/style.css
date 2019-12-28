@@ -136,24 +136,14 @@ li {
 
 /* Home */
 
-.landingImg {
-  position: relative;
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  left: 0 !important;
-  top: 0;
-  width: 100%;
-  display: block !important;
-  height: 640px;
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-}
-
 .landingImg1 {
+  position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/landing1.jpg');
   height: 110vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .separator {
