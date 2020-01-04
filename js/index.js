@@ -19,6 +19,8 @@
 })();
 
 
+/* Navbar color after scroll */
+
 $(document).ready(function () {
   function checkScroll(){
     var startY = $('.navbar').height() * 2; //The point where the navbar changes in px
@@ -36,3 +38,7 @@ $(document).ready(function () {
     });
   }
 });
+
+function showAllProjects() {
+  document.getElementById("viewAllProjects").style.display = "block";
+}
