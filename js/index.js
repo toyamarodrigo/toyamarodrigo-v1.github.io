@@ -39,6 +39,19 @@ $(document).ready(function () {
   }
 });
 
-function showAllProjects() {
-  document.getElementById("viewAllProjects").style.display = "block";
-}
+
+/* View All Projects button */
+
+$('#btnViewAllProjects').on('click', function() {
+
+  if($(this).text() === 'View All Projects') {
+    $('#hiddenProject1').fadeIn();
+    $('#hiddenProject2').fadeIn();
+    $(this).text('Close Projects')
+  } else {
+    $('#hiddenProject1').fadeOut();
+    $('#hiddenProject2').fadeOut();
+    $(this).text('View All Projects');
+  }
+
+});
