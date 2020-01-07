@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="scroll-behavior: smooth;">
 
 <head>
   <meta charset="UTF-8">
@@ -21,7 +21,7 @@
   <title>Rodrigo Toyama - Home</title>
 </head>
 
-<body data-spy="scroll" data-target="#navbarResponsive">
+<body data-spy="scroll" data-target="#navbarResponsive" class="justify-content-center">
 
   <!-- Navivation Bar -->
   <nav class="navbar navbar-expand-md navbar-dark navbar-inverse fixed-top bg-transparent">
@@ -42,7 +42,7 @@
             <a href="about.html" class="nav-link">About</a>
           </li>
           <li class="nav-item">
-            <a href="contact.html" class="nav-link">Contact</a>
+            <a href="#Contact" class="nav-link">Contact</a>
           </li>
         </ul>
       </div>
@@ -71,15 +71,20 @@
             <div class="col-12">
               <ul class="connect-list">
                 <li>
-                  <a class="connect-icon file" href="#" aria-label="CV"><i class="fa fa-file-text cv"></i></a>
+                  <a class="connect-icon file" href="#" aria-label="CV">
+                    <i class="fa fa-file-text cv"></i>
+                  </a>
                 </li>
                 <li>
                   <a class="connect-icon linkedin" href="https://www.linkedin.com/in/rodrigo-toyama-1861b1154/"
-                    aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                    aria-label="LinkedIn" target="_blank">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
                 </li>
                 <li>
-                  <a class="connect-icon github" href="https://github.com/toyamarodrigo" aria-label="Github"><i
-                      class="fa fa-github"></i></a>
+                  <a class="connect-icon github" href="https://github.com/toyamarodrigo" aria-label="Github"
+                    target="_blank"><i class="fa fa-github"></i>
+                  </a>
                 </li>
                 <li>
                   <a class="connect-icon" href="#Contact" aria-label="Mail"><i
@@ -93,7 +98,7 @@
         <div class="container">
           <div class="row">
             <div class="col-12 text-center">
-              <a class="btn btn-slide" href="#Projects">View My Projects</a>
+              <a class="btn-landing btn-slide" href="#Projects">View My Projects</a>
             </div>
           </div>
         </div>
@@ -102,71 +107,466 @@
     </div>
   </header>
 
+
+  <!-- Projects -->
   <section id="Projects">
     <div class="landing2">
-      <div class="container projects-container">
-        <div class="row">
+      <div class="container projects-container pt-5">
+        <h2 class="text-center pb-5">Projects</h2>
+        <div class="card justify-content-center h-100 my-5">
+          <div class="row no-gutters">
 
-          <div class="col-12 d-flex inline-flex">
-
-            <div class="col-5">
-              <img src="images/landing1.jpg" alt="img project1" class="img-project1">
+            <div class="col-lg-6">
+              <img src="images/landing1.jpg" alt="img project1" class="img-project1 card-img card-img-top">
             </div>
 
-            <div class="col-3">
+            <div class="col-lg-6">
               <div class="row">
                 <div class="col-12">
-                  <h3>Project Title</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, voluptatibus molestiae officiis illum aspernatur quae quidem voluptatibus molestiae officiis illum aspernatur quae quidem</p>
+                  <div class="card-body">
+                    <h3 class="card-title text-dark pt-2">Project Title</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, voluptatibus
+                      molestiae officiis
+                      illum aspernatur quae quidem voluptatibus molestiae officiis illum aspernatur quae quidemillum
+                      aspernatur quae quidem voluptatibus molestiae officiis illum aspernatur quae quidem illum
+                      aspernatur quae quidemillum
+                      aspernatur quae quidem voluptatm</p>
+                  </div>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-12">
-                  <h4>Used Technologies</h4>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-12">
-                  <a class="btn btn-slide" href="#">View</a>
-                  <a class="btn btn-slide" href="#">Code</a>
-                </div>
-              </div>
-            </div>
 
-            <div class="col-4">
               <div class="row">
                 <div class="col-12">
-                  <h4>Difficulties</h4>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fugit debitis, sint laboriosam explicabo. voluptatibus molestiae officiis illum aspernatur quae quidem</p>
+                  <div class="card-body used-tech-body">
+                    <h4 class="card-title">Used Technologies</h4>
+                    <ul class="d-flex inline-flex used-tech flex-wrap">
+                      <li>
+                        <p>HTML</p>
+                      </li>
+                      <li>
+                        <p>CSS</p>
+                      </li>
+                      <li>
+                        <p>Javascript</p>
+                      </li>
+                      <li>
+                        <p>Bootstrap</p>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
+
               <div class="row">
                 <div class="col-12">
-                  <h4>Solutions</h4>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut, consectetur voluptatum distinctio repellendus sed odit voluptatibus molestiae officiis illum aspernatur quae quidem</p>
+                  <div class="card-body projects-buttons">
+                    <a class="btn btn-slide button-view" href="#"><i class="fa fa-search" aria-hidden="true"></i> View</a>
+                    <a class="btn btn-slide button-code" href="#"><i class="fa fa-code" aria-hidden="true"></i> Code</a>
+                  </div>
                 </div>
               </div>
+
             </div>
 
           </div>
+        </div>
 
+        <div class="card justify-content-center h-100 my-5">
+          <div class="row no-gutters flex-row-reverse">
 
+            <div class="col-lg-6">
+              <img src="images/landing1.jpg" alt="img project1" class="img-project1 card-img card-img-top">
+            </div>
+
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-12">
+                  <div class="card-body">
+                    <h3 class="card-title text-dark pt-2">Project Title</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, voluptatibus
+                      molestiae officiis
+                      illum aspernatur quae quidem voluptatibus molestiae officiis illum aspernatur quae quidemillum
+                      aspernatur quae quidem voluptatibus molestiae officiis illum aspernatur quae quidem illum
+                      aspernatur quae quidemillum
+                      aspernatur quae quidem voluptatm</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-12">
+                  <div class="card-body used-tech-body">
+                    <h4 class="card-title">Used Technologies</h4>
+                    <ul class="d-flex inline-flex used-tech flex-wrap">
+                      <li>
+                        <p>HTML</p>
+                      </li>
+                      <li>
+                        <p>CSS</p>
+                      </li>
+                      <li>
+                        <p>Javascript</p>
+                      </li>
+                      <li>
+                        <p>Bootstrap</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-12">
+                  <div class="card-body projects-buttons">
+                    <a class="btn btn-slide button-view" href="#"><i class="fa fa-search" aria-hidden="true"></i> View</a>
+                    <a class="btn btn-slide button-code" href="#"><i class="fa fa-code" aria-hidden="true"></i> Code</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="card justify-content-center h-100 my-5" >
+          <div class="row no-gutters">
+
+            <div class="col-lg-6">
+              <img src="images/landing1.jpg" alt="img project1" class="img-project1 card-img card-img-top">
+            </div>
+
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-12">
+                  <div class="card-body">
+                    <h3 class="card-title text-dark pt-2">Project Title</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, voluptatibus
+                      molestiae officiis
+                      illum aspernatur quae quidem voluptatibus molestiae officiis illum aspernatur quae quidemillum
+                      aspernatur quae quidem voluptatibus molestiae officiis illum aspernatur quae quidem illum
+                      aspernatur quae quidemillum
+                      aspernatur quae quidem voluptatm</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-12">
+                  <div class="card-body used-tech-body">
+                    <h4 class="card-title">Used Technologies</h4>
+                    <ul class="d-flex inline-flex used-tech flex-wrap">
+                      <li>
+                        <p>HTML</p>
+                      </li>
+                      <li>
+                        <p>CSS</p>
+                      </li>
+                      <li>
+                        <p>Javascript</p>
+                      </li>
+                      <li>
+                        <p>Bootstrap</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-12">
+                  <div class="card-body projects-buttons">
+                    <a class="btn btn-slide button-view" href="#"><i class="fa fa-search" aria-hidden="true"></i> View</a>
+                    <a class="btn btn-slide button-code" href="#"><i class="fa fa-code" aria-hidden="true"></i> Code</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="card justify-content-center h-100 my-5" style="display: none;" id="hiddenProject1">
+          <div class="row no-gutters">
+
+            <div class="col-lg-6">
+              <img src="images/landing1.jpg" alt="img project1" class="img-project1 card-img card-img-top">
+            </div>
+
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-12">
+                  <div class="card-body">
+                    <h3 class="card-title text-dark pt-2">Project Title</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, voluptatibus
+                      molestiae officiis
+                      illum aspernatur quae quidem voluptatibus molestiae officiis illum aspernatur quae quidemillum
+                      aspernatur quae quidem voluptatibus molestiae officiis illum aspernatur quae quidem illum
+                      aspernatur quae quidemillum
+                      aspernatur quae quidem voluptatm</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-12">
+                  <div class="card-body used-tech-body">
+                    <h4 class="card-title">Used Technologies</h4>
+                    <ul class="d-flex inline-flex used-tech flex-wrap">
+                      <li>
+                        <p>HTML</p>
+                      </li>
+                      <li>
+                        <p>CSS</p>
+                      </li>
+                      <li>
+                        <p>Javascript</p>
+                      </li>
+                      <li>
+                        <p>Bootstrap</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-12">
+                  <div class="card-body projects-buttons">
+                    <a class="btn btn-slide button-view" href="#"><i class="fa fa-search" aria-hidden="true"></i> View</a>
+                    <a class="btn btn-slide button-code" href="#"><i class="fa fa-code" aria-hidden="true"></i> Code</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="card justify-content-center h-100 my-5" style="display: none;" id="hiddenProject2">
+          <div class="row no-gutters">
+
+            <div class="col-lg-6">
+              <img src="images/landing1.jpg" alt="img project1" class="img-project1 card-img card-img-top">
+            </div>
+
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-12">
+                  <div class="card-body">
+                    <h3 class="card-title text-dark pt-2">Project Title</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, voluptatibus
+                      molestiae officiis
+                      illum aspernatur quae quidem voluptatibus molestiae officiis illum aspernatur quae quidemillum
+                      aspernatur quae quidem voluptatibus molestiae officiis illum aspernatur quae quidem illum
+                      aspernatur quae quidemillum
+                      aspernatur quae quidem voluptatm</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-12">
+                  <div class="card-body used-tech-body">
+                    <h4 class="card-title">Used Technologies</h4>
+                    <ul class="d-flex inline-flex used-tech flex-wrap">
+                      <li>
+                        <p>HTML</p>
+                      </li>
+                      <li>
+                        <p>CSS</p>
+                      </li>
+                      <li>
+                        <p>Javascript</p>
+                      </li>
+                      <li>
+                        <p>Bootstrap</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-12">
+                  <div class="card-body projects-buttons">
+                    <a class="btn btn-slide button-view" href="#"><i class="fa fa-search" aria-hidden="true"></i> View</a>
+                    <a class="btn btn-slide button-code" href="#"><i class="fa fa-code" aria-hidden="true"></i> Code</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <a class="btn-projects btn-slide" onclick="showAllProjects()" type="button" id="btnViewAllProjects">View All Projects</a>
         </div>
       </div>
     </div>
+
+  </section>
+
+  <section id="Skills">
+    <div class="landing3">
+      <div class="container skills-container py-5">
+
+        <h2 class="text-center">Skills</h2>
+        <div class="row justify-content-center">
+          <hr class="separator">
+        </div>
+
+        <h3 class="text-center text-dark pb-5 pt-3">Languages</h3>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="lang-container">
+              <ul class="lang-list">
+                <li><img src="images/html-5.svg" alt="">
+                  <h5 class="text-center text-dark">HTML</h5>
+                </li>
+                <li><img src="images/css-3.svg" alt="">
+                  <h5 class="text-center text-dark">CSS</h5>
+                </li>
+                <li><img src="images/javascript-logo.svg" alt="">
+                  <h5 class="text-center text-dark">Javascript</h5>
+                </li>
+              </ul>
+              <ul class="lang-list">
+                <li><img src="images/mysql-logo.jpg" alt="">
+                  <h5 class="text-center text-dark">MySQL</h5>
+                </li>
+                <li><img src="images/java-logo.svg" alt="">
+                  <h5 class="text-center text-dark">Java</h5>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="text-center text-dark pb-5 pt-5">Libraries / Frameworks</h3>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="libfram-container">
+              <ul class="libfram-list">
+                <li><img src="images/jquery-logo.png" alt="">
+                  <h5 class="text-center text-dark">JQuery</h5>
+                </li>
+                <li><img src="images/bootstrap-logo.png" alt="">
+                  <h5 class="text-center text-dark">Bootstrap 4</h5>
+                </li>
+                <li><img src="images/springboot-logo.png" alt="">
+                  <h5 class="text-center text-dark">Spring Boot</h5>
+                </li>
+                <li><img src="images/hibernate-logo.png" alt="" >
+                  <h5 class="text-center text-dark">Hibernate</h5>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="text-center text-dark pb-5 pt-5">Technologies</h3>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="tech-container">
+              <ul class="tech-list">
+                <li><img src="images/vscode-logo.png" alt="">
+                  <h5 class="text-center text-dark">VSCode</h5>
+                </li>
+                <li><img src="images/eclipse-logo.png" alt="">
+                  <h5 class="text-center text-dark">Eclipse</h5>
+                </li>
+                <li><img src="images/git-logo.png" alt="">
+                  <h5 class="text-center text-dark">Git</h5>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="Contact">
+    <div class="container footer-container pt-5">
+
+      <h2 class="text-center">Contact me</h2>
+      <div class="row justify-content-center">
+        <hr class="separator">
+      </div>
+      <h5 class="text-center text-dark mt-4">Let's work together to create game-changing experiences.</h5>
+
+      <p class="text-center pt-3 email">toyama.rodrigo@gmail.com</p>
+
+      <div class="row justify-content-center">
+
+        <form class="col-lg-6 pt-3 text-center">
+          <div class="form-group">
+            <input type="text" class="form-control mb-4" placeholder="Name">
+            <input type="email" class="form-control mb-4" id="Email" aria-describedby="emailHelp" placeholder="Email">
+            <div class="form-group">
+              <textarea class="form-control" id="TextArea" rows="3" placeholder="Message"></textarea>
+              <small id="emailHelp" class="form-text text-muted text-center mt-3">We'll never share your email with
+                anyone
+                else.</small>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-slide button-submit my-4">Submit</button>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="Networks">
+    <div class="container">
+      <h3 class="text-center text-dark py-4">My networks</h3>
+      <div class="row justify-content-center text-center align-items-center pb-3">
+        <div class="element element1">
+          <a href="https://www.instagram.com/rt.codes/" class="network button-networks" target="_blank">
+            <i class="fa fa-instagram"></i>
+          </a>
+        </div>
+        <div class="element element1">
+          <a href="https://www.github.com/toyamarodrigo" class="network button-networks" target="_blank">
+            <i class="fa fa-github"></i>
+          </a>
+        </div>
+        <div class="element element1 linkedin">
+          <a href="https://www.linkedin.com/in/rodrigo-toyama-1861b1154/" class="network button-networks"
+            target="_blank">
+            <i class="fa fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
     </div>
   </section>
 
 
+  <footer id="Footer">
+    <div class="justify-content-center py-3 copyright align-items-center">
+      <p class="text-center">Copyright© 2019 - Rodrigo Toyama</p>
+    </div>
+  </footer>
 
 
 
-  <script src="js/index.js"></script>
-  <script src="js/typed.min.js"></script>
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/wow.min.js"></script>
+  <script src="js/index.js"></script>
+  <script src="js/typed.min.js"></script>
   <script>
     new WOW().init();
 
@@ -174,7 +574,7 @@
     var typed = new Typed(".type", {
       strings: [
         "^300 Software developer",
-        "^300 Web developer",
+        "^300 Full Stack Web developer",
         "^400 Maker^1000"
       ],
       typeSpeed: 100,
