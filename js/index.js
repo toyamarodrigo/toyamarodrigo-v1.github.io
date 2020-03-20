@@ -19,6 +19,8 @@
 })();
 
 
+/* Navbar color after scroll */
+
 $(document).ready(function () {
   function checkScroll(){
     var startY = $('.navbar').height() * 2; //The point where the navbar changes in px
@@ -35,4 +37,21 @@ $(document).ready(function () {
         checkScroll();
     });
   }
+});
+
+
+/* View All Projects button */
+
+$('#btnViewAllProjects').on('click', function() {
+
+  if($(this).text() === 'View All Projects') {
+    $('#hiddenProject1').fadeIn();
+    $('#hiddenProject2').fadeIn();
+    $(this).text('Close Projects')
+  } else {
+    $('#hiddenProject1').fadeOut();
+    $('#hiddenProject2').fadeOut();
+    $(this).text('View All Projects');
+  }
+
 });
