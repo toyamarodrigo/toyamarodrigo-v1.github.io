@@ -130,7 +130,7 @@ li {
 .navbar-brand .logo {
   margin: 0;
   padding: 0;
-  width: 140px;
+  width: 90px;
   height: 100%;
 }
 
@@ -500,6 +500,13 @@ col-xl ≥1200px
     color: #fff;
   }
 
+  .navbar-brand .logo {
+    margin: 0;
+    padding: 0;
+    width: 70px;
+    height: 100%;
+  }
+
   .projects-buttons {
     display: flex;
     justify-content: center;
@@ -570,7 +577,7 @@ col-xl ≥1200px
 }
 
 .about-me {
-  background-color: #0b0d30;
+  background-color: #000;
   padding-top: 3rem;
 }
 
