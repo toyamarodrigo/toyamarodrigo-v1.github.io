@@ -10,4 +10,4 @@
 * [ ] Mas descripcion en About
 * [ ] Formulario Contacto que funcione
 
-* [ ] Migrar a React
+* [ ] Migrar a React en v2
